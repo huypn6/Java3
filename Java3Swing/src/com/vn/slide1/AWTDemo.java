@@ -1,4 +1,4 @@
-package demo;
+package com.vn.slide1;
 
 import java.awt.Button;
 import java.awt.Color;
