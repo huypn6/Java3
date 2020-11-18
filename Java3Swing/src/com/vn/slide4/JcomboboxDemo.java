@@ -91,7 +91,7 @@ public class JcomboboxDemo {
 				//get selected item
 				String major = (String)comboBox.getSelectedItem();
 				List<Student> result = list.stream().filter(x -> {
-					return (x.getMajor() == major);
+					return (x.getMajor().equals(major));
 				}).collect(Collectors.toList());
 				for (Student student : result) {
 					System.out.println(student.getStudent());
